@@ -1,0 +1,11 @@
+JSON Web Token - JWT
+É um padrão de internet para criação de dados com criptografia cujo a carga contenha um JSON
+
+Sua Funcionalidade
+- Autenticação, permite que o servidor verifique a identidade de um user sem precisar as informações sobre ele
+
+Autenticação JWT
+
+- Chave com assinatura criptográfica 
+- Algoritmo : especifica qual algoritmo criptografia será utilizado para assinar o token JWT (HS256, RS256, ES256)
+- Payload - Conteúdo criptografado
