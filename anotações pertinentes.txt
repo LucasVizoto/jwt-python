@@ -9,3 +9,13 @@ Autenticação JWT
 - Chave com assinatura criptográfica 
 - Algoritmo : especifica qual algoritmo criptografia será utilizado para assinar o token JWT (HS256, RS256, ES256)
 - Payload - Conteúdo criptografado
+
+--------------------------------------------------
+
+Na minha settings dentro de models que eu faço a minha conexão com o banco de dados
+
+arquitetura mvc
+
+para rodar o pytest em geral, basta digitar pytest no terminal
+
+pytest -s -v, mostra os prints que tem no código tbm
