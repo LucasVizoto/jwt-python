@@ -19,3 +19,8 @@ arquitetura mvc
 para rodar o pytest em geral, basta digitar pytest no terminal
 
 pytest -s -v, mostra os prints que tem no código tbm
+
+Padrão de projeto adotado foi o padrão de fachada
+pip install bcrypt
+
+no controler que eu coloco minhas lógicas de desenvolvimento
