@@ -24,3 +24,20 @@ Padrão de projeto adotado foi o padrão de fachada
 pip install bcrypt
 
 no controler que eu coloco minhas lógicas de desenvolvimento
+-----------------------------------------------------
+basicamente para esconder infos sensíveis usa-se .env, não posso informar no meu código a minha chave de encode e o algoritmo
+
+pip install python-dotenv
+
+para rodar um .env, eu basicamente carrego o meu env no __init__.py com load_dotenv()
+
+e depois disso, em uma pasta de configs eu monto o body de como vão esr meus arquivos, basicamente monto um dicionário com as informações que eu quero mostrar pois, com esse dicionário eu posso acessá-lo posteriormente e buscar as informações de uma maneira mais simples
+
+note que no arquivo jwt_handler, eu consegui colocar as informações dentro dos campos KEY e ALGORIRTHM para os valores inseridos no meu .env
+
+além disso, caso deseja importar um arquivo que está na mesma pasta recomendo colocar um ponto antes do nome 
+
+ex: from .jwt_handler import JWTHandler
+
+dessa forma eu indico ao interpretador que o arquivo está na mesma pasta
+

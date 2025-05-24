@@ -1,4 +1,4 @@
-from jwt_handler import JwtHandler
+from .jwt_handler import JwtHandler
 
 def test_jwt_handler():
     jwt_handler = JwtHandler()
@@ -16,4 +16,4 @@ def test_jwt_handler():
     assert isinstance(token, str)
     assert token_information["username"] == body["username"]
     assert token_information["teste"] == body["teste"]
-    assert token_information["aqui"] == body["aqui"]
+    assert token_information["aqui"] == body["aqui"] 
