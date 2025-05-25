@@ -25,5 +25,6 @@ def test_create():
 def test_create_with_wrong_password():
     login_creator = LoginCreator(MockUserRepository())
 
-    with pytest.raises(Exception):
+    with pytest.raises(Exception): #com isso daqui eu estou falando para o pytest que eu quero uma excessão aqui
+        # logo, caso rodado o teste ele irá apontar que passou
         response = login_creator.create(username, "algumaSenha")
