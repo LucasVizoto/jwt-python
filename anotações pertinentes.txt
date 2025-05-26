@@ -41,3 +41,9 @@ ex: from .jwt_handler import JWTHandler
 
 dessa forma eu indico ao interpretador que o arquivo está na mesma pasta
 
+-------------------------------------------------
+
+o projeto segue a arquitetura mvc
+
+
+
