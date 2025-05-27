@@ -45,5 +45,8 @@ dessa forma eu indico ao interpretador que o arquivo está na mesma pasta
 
 o projeto segue a arquitetura mvc
 
+adicionar as views referentes aos controlers
 
+Para criação das rotas, criar em Main > Server
 
+o Check_same_thread=False, no db_connection_handler, indica que eu quero realizar minha conexão com diversos pontos do meu código
