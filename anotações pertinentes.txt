@@ -50,3 +50,12 @@ adicionar as views referentes aos controlers
 Para criação das rotas, criar em Main > Server
 
 o Check_same_thread=False, no db_connection_handler, indica que eu quero realizar minha conexão com diversos pontos do meu código
+
+
+basicamente nessa arquitetura, pra mim criar uma rota eu crio em um BluePrint em Routes e depois em importo dentro do arquivo server.py a blueprint pra indicar que o app possui acesso à todas as informações dessa BP
+
+
+----------------------------------------------------
+
+caso eu queira dar uma ideia para  apessoa sobre o projeto eu posso simplesmente mostrar o composer pois ele já relaciona todo mundo
+
