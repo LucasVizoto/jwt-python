@@ -59,3 +59,11 @@ basicamente nessa arquitetura, pra mim criar uma rota eu crio em um BluePrint em
 
 caso eu queira dar uma ideia para  apessoa sobre o projeto eu posso simplesmente mostrar o composer pois ele já relaciona todo mundo
 
+-----------------------------------------------------
+midllewares - vai ser um processamento que fazendo interagindo com as requisições http, que fazemos antes de ela ter o acesso aos endpoints
+é basicamente um elemento que vem na frente de todo o processamento do projeto
+
+
+------------------------------------------------------
+
+quanto aos retornos, basicamente, o balance precisa enviar o uid no headers e as informações que precisam ser alteradas no body, além de precisar do token em authorization

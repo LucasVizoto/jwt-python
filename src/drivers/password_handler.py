@@ -11,4 +11,6 @@ class PasswordHandler:
         #checagem das senhas encriptadas
     
     def check_password(self, password: str, hashed_password: str) -> bool:
-        return bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8'))
+        if isinstance(hashed_password, str):
+            hashed_password = hashed_password.encode('utf-8')  # converte de volta para bytes
+        return bcrypt.checkpw(password.encode('utf-8'), hashed_password)
