@@ -54,7 +54,7 @@ JWT_HOURS=<duração-do-token-em-horas>
 
 - Criar um novo Usuário
 
-```http
+```
   POST /bank/registry
 ```
 
@@ -65,7 +65,7 @@ JWT_HOURS=<duração-do-token-em-horas>
 `password` | `string`| **Obrigatório**. Senha que será encriptada.
 
 #### Resposta esperada: 
-```http
+```
 {
     "data": {
         "count": int,
@@ -80,7 +80,7 @@ JWT_HOURS=<duração-do-token-em-horas>
 
 - Login e geração do token JWT
 
-```http
+```
   POST /bank/login
 ```
 #### Body da Requisição:
@@ -90,7 +90,7 @@ JWT_HOURS=<duração-do-token-em-horas>
 `password` | `string`| **Obrigatório**. Senha que será encriptada.
 
 #### Resposta esperada: 
-```http
+```
 {
     "data": {
         "access": true,
@@ -105,7 +105,7 @@ JWT_HOURS=<duração-do-token-em-horas>
 #### 
 - Atualização de saldo do usuário
 
-```http
+```
   PATCH /bank/balance/<user_id>
 ```
 #### Body da Requisição:
@@ -125,7 +125,7 @@ JWT_HOURS=<duração-do-token-em-horas>
 #### ⚠️ Certifique-se de que os valores de uid no cabeçalho e user_id na URL correspondam ao mesmo usuário. Caso contrário, a requisição será rejeitada por motivos de segurança.
 
 #### Resposta esperada: 
-```http
+```
 {
     "data": {
         "count": int,
@@ -148,4 +148,4 @@ JWT_HOURS=<duração-do-token-em-horas>
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasvizoto/)
 
-[![e-mail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucavizoto364@gmail.com)
+[![e-mail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucasvizoto364@gmail.com)
