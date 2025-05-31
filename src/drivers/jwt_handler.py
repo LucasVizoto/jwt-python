@@ -3,8 +3,7 @@ from datetime import datetime, timedelta, timezone
 from src.configs.jwt_configs import jwt_infos
 
 
-print()
-print(jwt_infos)
+
 class JwtHandler:
     def create_jwt_token(self, body : dict = {}) -> str:
         token = jwt.encode(
